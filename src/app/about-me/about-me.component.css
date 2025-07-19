@@ -1,0 +1,39 @@
+.aboutmeDiv {
+     padding: 120px;
+    max-width: 1320px;
+    margin: 0 auto;
+    margin-top: 100px;
+
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+background: var(--Gray-White, #FFF);
+box-shadow: 0px 59px 124px 0px rgba(0, 0, 0, 0.12);
+justify-content: center;
+
+}
+
+.aboutmeText {
+    color: var(--Gray-400, #87909D);
+text-align: center;
+/* Body/Large/400 */
+font-family: "Work Sans";
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 133.333% */
+
+}
+
+.aboutTitle {
+    margin: auto;
+    margin-bottom: 50px;
+    color: var(--Gray-900, #132238);
+
+/* Heading/02 */
+font-family: "Work Sans";
+font-size: 38px;
+font-style: normal;
+font-weight: 600;
+line-height: 50px; /* 131.579% */
+}

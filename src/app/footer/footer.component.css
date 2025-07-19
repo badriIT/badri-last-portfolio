@@ -1,0 +1,109 @@
+footer {
+    background: var(--Gray-800, #2B384C);
+    padding: 20px;
+    margin-top: 20px;
+   
+}
+.right-content-nav {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.B {
+color: var(--Gray-White, #FFF);
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 56px; /* 233.333% */
+
+display: flex;
+padding: 0px 20px;
+flex-direction: column;
+align-items: flex-start;
+gap: 10px;
+
+border-radius: 1000px;
+background: var(--Primary-500, #A53DFF);
+}
+
+.name {
+  color: var(--Gray-White, #FFF);
+
+/* Heading/03 */
+font-family: "Work Sans";
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: 40px; /* 125% */
+}
+
+.home, .about, .process, .Portfolio, .blog, .services, .contact {
+   color: var(--Gray-50, #F0F1F3);
+
+/* Body/Regular/400 */
+font-family: "Work Sans";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+}
+
+.left-content-nav {
+    display: flex;
+    align-items: center;
+    gap: 48px;
+}
+
+.Copyright {
+    color: var(--Gray-White, #FFF);
+
+/* Body/Regular/400 */
+font-family: "Work Sans";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+}
+
+.whole-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 160px 2%;
+    max-width: 1320px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+@media screen and (max-width: 1200px) {
+    .whole-footer {
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+    .left-content-nav {
+       
+        align-items: center;
+    }
+    .right-content-nav {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .whole-footer {
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+    .left-content-nav {
+        flex-direction: column;
+        align-items: center;
+    }
+    .right-content-nav {
+        flex-direction: column;
+        align-items: center;
+    }
+}

@@ -1,0 +1,42 @@
+<div class="whole-content">
+  <div data-aos="fade-right" data-aos-duration="1500" class="right-content-nav">
+    <div class="B">B</div>
+    <p class="name">Badri</p>
+  </div>
+
+  <div data-aos="fade-left" data-aos-duration="1500" class="left-content-nav">
+    <a class="home" href="#info-content">Home</a>
+    <a class="about" href="#what-I-do-section">About</a>
+    <a class="process" href="#work-process">Process</a>
+    <a class="Portfolio" href="#whole-portfolio">Portfolio</a>
+    <a class="blog" routerLink="/aboutMe">About me</a>
+    <a class="services" href="">Services</a>
+    <a class="contact" href="#discuss-project-section">contact</a>
+
+ 
+    
+
+
+  </div>
+</div>
+
+<div class="burger-container">
+  <input (click)="toggleBurger()" id="burger-checkbox" type="checkbox" />
+  <label class="burger" for="burger-checkbox">
+    <span></span>
+    <span></span>
+    <span></span>
+  </label>
+</div>
+
+<nav class="mobile-menu" [ngClass]="{ 'active': burgeropen }">
+  <a class="home" href="#info-content">Home</a>
+  <a class="about" href="#what-I-do-section">About</a>
+  <a class="process" href="#work-process">Process</a>
+  <a class="Portfolio" href="#whole-portfolio">Portfolio</a>
+  <a class="blog" routerLink="/aboutMe">About me</a>
+  <a class="services" href="">Services</a>
+  <a class="contact" href="#discuss-project-section">contact</a>
+
+
+</nav>
