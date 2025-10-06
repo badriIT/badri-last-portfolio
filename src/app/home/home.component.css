@@ -691,6 +691,79 @@ max-width: 584px;
     padding: 24px;
 }
 
+.sertification-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 100px 20px;
+    
+}
+
+.title-certification {
+    color: var(--Gray-900, #132238);
+    text-align: center;
+    font-family: "Work Sans";
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 50px; /* 131.579% */
+    margin-bottom: 24px;
+    margin-top: 24px;
+    letter-spacing: 0.5px;
+}
+
+.sertification-section img {
+   
+    max-width: 800px;
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.experiences {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+  margin-top: 20px  
+}
+
+.experiences div {
+    cursor: pointer;
+  margin-top: 0;
+  max-width: 260px;
+  min-width: 180px;
+  width: 100%;
+  padding: 24px 18px;
+  border-radius: 14px;
+  background: linear-gradient(135deg, #f3e8ff 0%, #e9f7ef 100%);
+  box-shadow: 0 4px 24px 0 rgba(165, 61, 255, 0.08), 0 1.5px 6px 0 rgba(28, 25, 25, 0.08);
+  border: 1px solid #ececec;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 12px;
+  transition: box-shadow 0.3s, transform 0.3s;
+}
+
+.experiences div:hover {
+  box-shadow: 0 8px 32px 0 rgba(165, 61, 255, 0.18), 0 3px 12px 0 rgba(28, 25, 25, 0.12);
+  transform: translateY(-4px) scale(1.03);
+  background: linear-gradient(135deg, #e9f7ef 0%, #f3e8ff 100%);
+}
+
+.experiences div p {
+    
+  color: #6c3bbd;
+  font-family: "Work Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+
 .discuss-project {
     
     padding: 50px;
@@ -1054,6 +1127,28 @@ flex-wrap: wrap;
 }
 
 @media  screen and (max-width: 768px) {
+
+    .title-certification {
+    
+    font-size: 32px;
+ 
+}
+
+    .experiences div {
+    cursor: pointer;
+  margin-top: 0;
+  max-width: 130px;
+  min-width: 110px;
+  width: 100%;
+  padding: 12px 6px;
+  border-radius: 14px;
+  
+}
+
+ .experiences div p {
+   font-size: 16px;
+  
+}
    
     .discuss-project {
         text-align: center;
@@ -1099,6 +1194,12 @@ flex-wrap: wrap;
 
 
 @media  screen and (max-width: 500px) {
+
+       .title-certification {
+    
+    font-size: 28px;
+ 
+}
 
     .social-medias {
         flex-direction: column;

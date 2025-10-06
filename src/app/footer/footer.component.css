@@ -39,7 +39,7 @@ font-weight: 600;
 line-height: 40px; /* 125% */
 }
 
-.home, .about, .process, .Portfolio, .blog, .services, .contact {
+.home, .about, .process, .Portfolio, .blog, .services, .contact, .certifications {
    color: var(--Gray-50, #F0F1F3);
 
 /* Body/Regular/400 */

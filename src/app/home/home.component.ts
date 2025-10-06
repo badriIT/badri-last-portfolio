@@ -2,6 +2,8 @@ import { Component } from '@angular/core';
 import { log } from 'node:console';
 import emailjs from 'emailjs-com';
 
+
+
 @Component({
   selector: 'app-home',
   standalone: false,
@@ -67,5 +69,8 @@ export class HomeComponent {
     this.subject = '';
     this.message = '';
   }
+
+
+
 
 }
