@@ -1022,6 +1022,18 @@ input:focus {
 
 }
 
+.github-link {
+    display: flex;
+    justify-content: center;
+    font-family: Poppins;
+    color: black;
+    cursor: pointer;
+    text-align: center;
+    align-items: center;
+    gap: 10px;
+    
+}
+
 
 
 
